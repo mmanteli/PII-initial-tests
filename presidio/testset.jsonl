@@ -1,0 +1,50 @@
+{"language":"en","original":"Maria called 555-123-4567 from her office at the company in New York.", "redacted": "<PERSON> called <PHONE_NUMBER> from her office at the company in <LOCATION>."}
+{"language":"en","original":"John Smith prefers using Apple for his work, contacting clients on his phone number 123-456-7890.", "redacted":"<PERSON> prefers using <PRODUCT> for his work, contacting clients on his phone number <PHONE_NUMBER>."}
+{"language":"en","original":"Emma visited Paris and enjoyed a delightful meal at Le Jules Verne restaurant.", "redacted":"<PERSON> visited <LOCATION> and enjoyed a delightful meal at <LOCATION>."}
+{"language":"en","original":"At the conference, Dr. Patel discussed advancements in medicine at the Mayo Clinic.", "redacted":"At the conference, Dr. <PERSON> discussed advancements in medicine at <ORG>."}
+{"language":"en","original":"Samantha's phone number 987-654-3210 was written on a note left at the Starbucks cafe.", "redacted":"<PERSON>'s phone number <PHONE_NUMBER> was written on a note left at the <ORG> cafe."}
+{"language":"en","original":"Mr. Johnson, CEO of ABC Corporation, announced record profits in their latest quarterly report.", "redacted":"Mr. <PERSON>, CEO of <ORG>, announced record profits in their latest quarterly report."}
+{"language":"en","original":"Emily received a call at her Chicago apartment from her friend Jack.", "redacted":"<PERSON> received a call at her <LOCATION> apartment from her friend <PERSON>."}
+{"language":"en","original":"The team at Google reached out to recruit Sarah.", "redacted":"The team at <ORG> reached out to recruit <PERSON>."}
+{"language":"en","original":"Michael always orders his favorite pizza from Domino's", "redacted":"<PERSON> always orders his favorite pizza from <ORG>"}
+{"language":"en","original":"A renowned architect designed the new building for Microsoft in Seattle.", "redacted":"A renowned architect designed the new building for <ORG> in <LOCATION>."}
+{"language":"fi","original":"Minna soitti Turun Sanomien toimiston numeroon.","redacted":"<PERSON> soitti <ORG> toimiston numeroon."}
+{"language":"fi","original":"Jussi tykkää käyttää Applen tuotteita töiden tekemiseen.","redacted":"<PERSON> tykkää käyttää <ORG> tuotteita töiden tekemiseen."}
+{"language":"fi","original":"Emilia kävi Pariisissa viime keväänä.","redacted":"<PERSON> kävi <LOC> viime keväänä."}
+{"language":"fi","original":"Konferenssissa tri Patel kertoi Terveystalon uusista tutkimustuloksista.","redacted":"Konferenssissa tri <PERSON> kertoi <ORG> uusista tutkimustuloksista."}
+{"language":"fi","original":"Mikaela sai oudon puhelun numerosta 044 19409903.","redacted":"<PERSON> sai oudon puhelun numerosta <PHONE_NUMBER>."}
+{"language":"fi","original":"Hän on yrityksemme toimitusjohtaja ja hänet tavoittaa soittamalla 055 2951028.","redacted":"Hän on yrityksemme toimitusjohtaja ja hänet tavoittaa soittamalla <PHONE_NUMBER>."}
+{"language":"fi","original":"Kuuluista arkkitehti on suunnitellut Turun ylioppilaskunnan toimistotalon.","redacted":"Kuuluisa arkkitehti on suunnitellut <ORG> toimistotalon."}
+{"language":"fi","original":"Tyttö kirjoitti osoitteensa Lemminkäisenkatu 6 lautasliinan reunaan.","redacted":"Tyttö kirjoitti osoitteensa <LOC> lautasliinan reunaan."}
+{"language":"fi","original":"Salasananne Xjsp4012 on voimassa 6kk ajan.","redacted":"Salasananne <ID> on voimassa <DATE_TIME> ajan."}
+{"language":"fi","original":"","redacted":""}
+{"language":"et","original":"Maria helistas 555-123-4567 oma kontorist ettevõttes New Yorgis."}
+{"language":"et","original":"Adres eelistab oma töös kasutada Apple'i, võttes klientidega ühendust telefoninumbril 123-456-7890."}
+{"language":"et","original":"Irina külastas Pariisi ja nautis meeldivat eine restoranis Le Jules Verne."}
+{"language":"et","original":"Konverentsil arutas dr Patel meditsiini arenguid."}
+{"language":"et","original":"Julia telefoninumber 987-654-3210 oli kirjutatud märkmele."}
+{"language":"et","original":"Hr Lahe, ABC Corporationi tegevjuht, teatas rekordilistest kasumitest nende viimases kvartaliaruandes."}
+{"language":"et","original":"Emily sai oma Chicagos asuvasse korterisse kõne oma sõbralt Tarmolt."}
+{"language":"et","original":"Google'i meeskond võttis ühendust Anneli värbamiseks."}
+{"language":"et","original":"Sergei tellib oma lemmikburgeri alati Herburgerist."}
+{"language":"et","original":"Tuntud arhitekt kavandas uue hoone Microsoftile Tallinnas."}
+{"language":"nb","original":"Maria ringte 555-123-4567 fra kontoret sitt i selskapet i Oslo."}
+{"language":"nb","original":"Oliver Nilsen foretrekker å bruke Apple i sitt arbeid og kontakter kunder på telefonnummeret sitt 123-456-7890."}
+{"language":"nb","original":"Emma besøkte Paris og nøt et herlig måltid på Le Jules Verne-restauranten."}
+{"language":"nb","original":"Under konferansen diskuterte Dr. Patel fremskritt innen medisin ved Mayo Clinic."}
+{"language":"nb","original":"Sofie telefonnummer 987-654-3210 sto skrevet på en lapp som lå igjen på Starbucks-kaféen."}
+{"language":"nb","original":"Hr. Andersson, administrerende direktør i ABC Corporation, kunngjorde rekordprofitter i deres siste kvartalsrapport."}
+{"language":"nb","original":"Ella fikk et anrop på leiligheten sin i Chicago fra vennen sin Jakob."}
+{"language":"nb","original":"Teamet hos Google tok kontakt for å rekruttere Frida."}
+{"language":"nb","original":"Emil bestiller alltid sin favorittpizza fra Peppes Pizza"}
+{"language":"nb","original":"En anerkjent arkitekt designet det nye bygget for Microsoft i Bergen."}
+{"language":"is","original":"Maria hringdi í 555-123-4567 frá skrifstofunni sinni hjá fyrirtækinu í Reykjavík."}
+{"language":"is","original":"Stefán Gunnarsson hefur kost á að nota Apple fyrir sitt starf, hafa samband við viðskiptavini á símanúmerið sitt 123-456-7890."}
+{"language":"is","original":"Emma heimsótti París og naut yndislegs máltíðar á veitingastaðnum Le Jules Verne."}
+{"language":"is","original":"Á ráðstefnunni ræddi Dr. Patel framför í læknisvísindum á Landspítali."}
+{"language":"is","original":"Símanúmer Idu 987-654-3210 var skrifað á skilaboð sem lágu eftir á Starbucks-kaffihúsinu."}
+{"language":"is","original":"Hr. Andersson, framkvæmdastjóri ABC Corporation, tilkynnti hagnaðarmetum í sínum síðustu ársfjórðungsreikningi."}
+{"language":"is","original":"Emilía fékk símtal í íbúð sinni í Húsavík frá vini sínum Otto."}
+{"language":"is","original":"Liðið hjá Google snerist til að ráða Sara."}
+{"language":"is","original":"Lukas pantar alltaf uppáhalds pizzuna sína frá pizzeria á staðnum."}
+{"language":"is","original":"Þekktur arkitekt hannaði nýja byggingu fyrir Microsoft í Reykjavík."}

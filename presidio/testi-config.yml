@@ -1,0 +1,45 @@
+nlp_engine_name: transformers
+models:
+  -
+    lang_code: fi
+    model_name:
+      spacy: fi_core_news_sm
+      transformers: 51la5/roberta-large-NER #Kansallisarkisto/finbert-ner
+  -
+    lang_code: en
+    model_name:
+      spacy: en_core_web_sm
+      transformers: 51la5/roberta-large-NER # dslim/bert-base-ner #StanfordAIMI/stanford-deidentifier-base
+
+ner_model_configuration:
+  labels_to_ignore:
+  - O
+  aggregation_strategy: simple # "simple", "first", "average", "max"
+  stride: 16
+  alignment_mode: strict # "strict", "contract", "expand"
+  model_to_presidio_entity_mapping:
+    PER: PERSON
+    ORG: ORGANIZATION
+    LOC: LOCATION
+    GPE: LOCATION
+    PRODUCT: ORGANIZATION
+    EVENT: ORGANIZATION
+
+  low_confidence_score_multiplier: 0.4
+  low_score_entity_names:
+  - ID
+  
+  
+# we're only using the spacy pipeline, thus sm = small spacy model is loaded.
+  
+# These are the labels for finbert-ner
+#PERSON (person names)
+#ORG (organizations)
+#LOC (locations)
+#GPE (geopolitical locations)
+#PRODUCT (products)
+#EVENT (events)
+#DATE (dates)
+#JON (Finnish journal numbers (diaarinumero))
+#FIBC (Finnish business identity codes (y-tunnus))
+#NORP (nationality, religious and political groups)

@@ -1,0 +1,42 @@
+nlp_engine_name: transformers
+models:
+  -
+    lang_code: fi
+    model_name:
+      spacy: fi_core_news_sm
+      transformers: Kansallisarkisto/finbert-ner
+
+ner_model_configuration:
+  labels_to_ignore:
+  - O
+  aggregation_strategy: simple # "simple", "first", "average", "max"
+  stride: 16
+  alignment_mode: strict # "strict", "contract", "expand"
+  model_to_presidio_entity_mapping:
+    PERSON: PERSON
+    ORG: ORGANIZATION
+    LOC: LOCATION
+    GPE: LOCATION
+    PRODUCT: ORGANIZATION
+    EVENT: ORGANIZATION
+    DATE: DATE_TIME
+    JON: ID
+    FIBC: ID
+    NORP: NRP
+
+  low_confidence_score_multiplier: 0.4
+  low_score_entity_names:
+  - ID
+  
+  
+# These are the labels for finbert-ner
+#PERSON (person names)
+#ORG (organizations)
+#LOC (locations)
+#GPE (geopolitical locations)
+#PRODUCT (products)
+#EVENT (events)
+#DATE (dates)
+#JON (Finnish journal numbers (diaarinumero))
+#FIBC (Finnish business identity codes (y-tunnus))
+#NORP (nationality, religious and political groups)
